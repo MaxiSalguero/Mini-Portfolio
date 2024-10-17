@@ -1,0 +1,147 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, footer{
+    background-color: black;
+    color: #FEFEFE;
+    padding: 20px 30px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 1em;
+    text-align: center;
+    height: 50px;
+}
+
+.container-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+}
+
+li a{
+    margin: 0 10px 0 0;
+}
+
+#nav a{
+    color: #FEFEFE;
+}
+
+#aboutMe, #techFav{
+    padding: 4em 0 3em 0;
+    background: #FEFEFE;
+    text-align: center;
+}
+
+.aboutMe-profile{
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 60px;
+}
+
+.aboutMe-description{
+    text-align: start;
+}
+
+.aboutMe-title{
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.techFav-title{
+    font-size: 1.8em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.techFav-cards li, .activity-card {
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    vertical-align: top;
+    margin: 2.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.techFav-cards li:hover, .activity-card:hover, .techFav-cards li:active, .activity-card:active {
+    border-color: #c78c19;
+}
+
+.techFav-cards li:hover h2, .activity-card:hover h3{
+    font-size: 33px;
+}
+
+.techFav-cards h2, .activity-card h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*  Css actFav  */
+
+.actFav-title{
+    font-size: 1.8em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+form{
+    margin: 25px 0
+}
+
+form textarea, form input {
+    display: block;
+    margin: 15px 0;
+    padding: 5px;
+    width: 60%;
+    font-size: 1em;
+}
+
+form input{
+    height: 1.6em;
+}
+
+.enviar {
+    width: 20%;
+    height: 2.5em;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.card-image{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.card-description{
+    font-size: 17px;
+    margin-bottom: 10px;
+} 

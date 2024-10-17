@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page - MSS</title>
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-head">
+            <h1 class="header-title">Maximiliano Salguero</h1>
+            <nav id="nav">
+                <ul class="lista">
+                    <li><a href="#aboutMe">Sobre mí |</a></li>
+                    <li><a href="#techFav">Tecnologías Favoritas |</a></li>
+                    <li><a href="#actFav">Actividades Favoritas</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <section id="aboutMe">
+            <h3 class="aboutMe-title">Sobre Mi</h3>
+            <img src="./assets/img/maxi.jpeg" alt="foto de perfil" class="aboutMe-profile">
+            <p class="aboutMe-description">Soy un joven que le encanta aprender cosas nuevas, actualmente estoy estudiando en Henry, 
+            en busqueda de un mejor futuro para mi familia y para mi, amo la programacion y aunque muchas veces me hace doler la cabeza nunca voy a dejar de programar
+            porque siento que este es mi lugar y quiero dedicarme de lleno a esto para algun dia lograr ser un gran programador y trabajar en una buena empresa.</p>
+        </section>
+        <section id="techFav">
+            <hr>
+            <h3 class="techFav-title">Mis Tecnologías Favoritas</h3>
+            <ul class="techFav-cards">
+                <li>
+                    <h2>HTML</h2>
+                    <img src="./assets/img/html.png" alt="Logo HTML">
+                </li>
+                <li>
+                    <h2>CSS</h2>
+                    <img src="./assets/img/CSS.png" alt="Logo CSS" class="img-card-cs">
+                </li>
+                <li>
+                    <h2>JavaScript</h2>
+                    <img src="./assets/img/js.png" alt="Logo JavaScript" class="img-card-js">
+                </li>
+            </ul>
+        </section>
+        <section id="actFav">
+            <div>
+                <h3 class="actFav-title">Mis Actividades Favoritas</h3>
+                <form>
+                    <input type="text" class="" required placeholder="Nombre de la Actividad" data-nombre>
+                    <textarea cols="66" rows="5" required placeholder="Descripción de la Actividad" data-descripcion></textarea>
+                    <input type="text" class="" required placeholder="Link de Imagen" data-linkImg>
+                    <button type="submit" class="enviar" data-form-btn>Agregar Actividad</button>
+                </form>
+            </div>
+            <div data-cards></div>
+        </section>
+    </main>
+    <footer><p>&copy;2024 - Mi Presentación</p></footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
